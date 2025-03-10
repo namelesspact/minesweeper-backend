@@ -1,0 +1,36 @@
+{
+  "name": "nameless-pact-minesweeper-backend",
+  "version": "0.0.1",
+  "description": "Backend for the Minesweeper game within the Nameless Pact platform.",
+  "main": "dist/main.js",
+  "dependencies": {
+    "@nestjs/common": "11.0.11",
+    "@nestjs/config": "4.0.1",
+    "@nestjs/core": "11.0.11",
+    "@nestjs/cqrs": "11.0.2",
+    "@nestjs/platform-fastify": "11.0.11",
+    "@nestjs/swagger": "11.0.6",
+    "@nestjs/typeorm": "11.0.0",
+    "class-transformer": "0.5.1",
+    "class-validator": "0.14.1",
+    "typeorm": "0.3.21",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.2"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "11.0.11",
+    "@types/node": "22.13.9",
+    "typescript": "5.8.2"
+  },
+  "scripts": {
+    "start": "node dist/main.js",
+    "start:dev": "nest start --watch",
+    "build": "nest build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "license": "Proprietary"
+}
